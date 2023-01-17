@@ -7,7 +7,6 @@ public class TrainSystem {
     private final Map<String, Station> stations = new HashMap<>();
 
     public void addStation(Station station) {
-
         stations.putIfAbsent(station.getName(), station);
     }
 
